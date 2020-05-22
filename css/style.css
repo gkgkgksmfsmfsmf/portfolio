@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*reset*/
+*{margin: 0;padding: 0;box-sizing: border-box}
+li{list-style: none;}
+a:visited,a:link{text-decoration: none;color: black;}
+.clearfix:after{content: "";display: block;clear: both;}
+
+/*navTop*/
+nav#navTop{
+			position: fixed;z-index: 1;
+			width: 100%;
+			
+			_padding-left:1510px;
+			height: 50px;
+			/*background-color: #fff;*/
+
+		}
+nav#navTop ul#topMenu{
+	float: right;
+	padding-right: 47px;
+	
+}	
+
+
+
+nav#navTop li{float: left;}
+nav#navTop li a{
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	padding: 0 10px;
+	
+}
+
+nav#navTop li a.Color{
+	color:white;
+}
+
+
+
+
+/*page*/
+/*.page{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}*/
+
+#page1{background-color: #000;}
+#page2{background-color: #0f0;}
+#page3{background-color: #f00;}
+#page4{background-color: #00f;}
+#page5{background-color: #0ff;}
+/*scroll*/
+.scroll{
+	position: absolute;
+	bottom: 600px;left: 50%;
+	transform: translateX(-50%);
+	animation-name: xScroll;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	z-index: 3;
+}
+
+@keyframes xScroll{
+	from{bottom: 100px;}
+	to{bottom: 80px;}
+}
+
+.scroll01{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	animation-name: xScrolltwo;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes xScrolltwo{
+	from{bottom: 50px;}
+	to{bottom: 30px;}
+}
