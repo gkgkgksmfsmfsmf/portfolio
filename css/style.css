@@ -46,20 +46,20 @@ nav#navTop li a.Color{
 	background-size: cover;
 }*/
 
-#page1{background-color: #000;}
-#page2{background-color: #0f0;}
-#page3{background-color: #f00;}
-#page4{background-color: #00f;}
-#page5{background-color: #0ff;}
+#page1{background-color: #fff;}
+#page2{background-color: #fff;position: relative;}
+#page3{background-color: #fff;position: relative;}
+#page4{background-color: #fff;position: relative;}
+#page5{background-color: #fff;position: relative;}
 /*scroll*/
 .scroll{
 	position: absolute;
-	bottom: 600px;left: 50%;
+	bottom: 20px;left: 40%;
 	transform: translateX(-50%);
-	animation-name: xScroll;
+	/*animation-name: xScroll;
 	animation-duration: 0.8s;
 	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	animation-direction: alternate;*/
 	z-index: 3;
 }
 
@@ -81,4 +81,390 @@ nav#navTop li a.Color{
 @keyframes xScrolltwo{
 	from{bottom: 50px;}
 	to{bottom: 30px;}
+}
+
+/*#page1*/
+#page1{position: relative;}
+#page1 .img{float: left;width: 70%;padding-top:150px;padding-left: 20px;}
+#page1 .box01{
+	float: left;
+	width: 30%;height: 100%;
+	background-color: #000;
+	position: relative;
+	/*animation: boxani 3s infinite; */
+}
+#page1 .box02{
+	position: absolute;left: 0;
+	background-color: #000;
+	width: 30px;
+	height: 100%;
+	animation-name: boxani;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#page1 .box01 .txt{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+}
+#page1 .box01 .txt2{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+	display: none;
+}
+#page1 .box01 .txt a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page1 .box01 .txt2 a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page1 .box01.box03{
+	background-image: url(../images/activebg01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;height: 100%;
+}
+@keyframes boxani{
+	form{left:0px;}
+	to{left: -20px;}
+}
+
+#page1 .link{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #000;
+	text-align: center;
+	font-weight: bold;	
+	color:#000;
+	position: absolute;
+	top: 690px;left:840px;
+
+}
+
+/*#page2*/
+#page2 .img{float: left;width: 70%;padding-top:150px;padding-left: 20px;}
+#page2 .box01{
+	float: left;
+	width: 30%;height: 100%;
+	background-color: #000;
+	position: relative;
+	/*animation: boxani 3s infinite; */
+}
+#page2 .box02{
+	position: absolute;left: 0;
+	background-color: #000;
+	width: 30px;
+	height: 100%;
+	animation-name: boxani;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#page2 .box01 .txt{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+}
+#page2 .box01 .txt2{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+	display: none;
+}
+#page2 .box01 .txt a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page2 .box01 .txt2 a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page2 .box01.box03{
+	background-image: url(../images/activebg02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;height: 100%;
+}
+@keyframes boxani{
+	form{left:0px;}
+	to{left: -20px;}
+}
+
+#page2 .link{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #000;
+	text-align: center;
+	font-weight: bold;	
+	color:#000;
+	position: absolute;
+	top: 690px;left:840px;
+
+}
+
+/*#page3*/
+#page3 .img{float: left;width: 70%;padding-top:150px;padding-left: 20px;}
+#page3 .box01{
+	float: left;
+	width: 30%;height: 100%;
+	background-color: #000;
+	position: relative;
+	/*animation: boxani 3s infinite; */
+}
+#page3 .box02{
+	position: absolute;left: 0;
+	background-color: #000;
+	width: 30px;
+	height: 100%;
+	animation-name: boxani;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#page3 .box01 .txt{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+}
+#page3 .box01 .txt2{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+	display: none;
+}
+#page3 .box01 .txt a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page3 .box01 .txt2 a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page3 .box01.box03{
+	background-image: url(../images/activebg03.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;height: 100%;
+}
+@keyframes boxani{
+	form{left:0px;}
+	to{left: -20px;}
+}
+
+#page3 .link{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #000;
+	text-align: center;
+	font-weight: bold;	
+	color:#000;
+	position: absolute;
+	top: 690px;left:840px;
+
+}
+
+/*#page4*/
+#page4 .img{float: left;width: 70%;padding-top:150px;padding-left: 20px;}
+#page4 .box01{
+	float: left;
+	width: 30%;height: 100%;
+	background-color: #000;
+	position: relative;
+	/*animation: boxani 3s infinite; */
+}
+#page4 .box02{
+	position: absolute;left: 0;
+	background-color: #000;
+	width: 30px;
+	height: 100%;
+	animation-name: boxani;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#page4 .box01 .txt{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+}
+#page4 .box01 .txt2{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+	display: none;
+}
+#page4 .box01 .txt a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page4 .box01 .txt2 a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page4 .box01.box03{
+	background-image: url(../images/activebg04.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;height: 100%;
+}
+@keyframes boxani{
+	form{left:0px;}
+	to{left: -20px;}
+}
+
+#page4 .link{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #000;
+	text-align: center;
+	font-weight: bold;	
+	color:#000;
+	position: absolute;
+	top: 690px;left:840px;
+
+}
+
+/*#page5*/
+#page5 .img{float: left;width: 70%;padding-top:150px;padding-left: 20px;}
+#page5 .box01{
+	float: left;
+	width: 30%;height: 100%;
+	background-color: #000;
+	position: relative;
+	/*animation: boxani 3s infinite; */
+}
+#page5 .box02{
+	position: absolute;left: 0;
+	background-color: #000;
+	width: 30px;
+	height: 100%;
+	animation-name: boxani;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#page5 .box01 .txt{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+}
+#page5 .box01 .txt2{
+	position: absolute;
+	right: 188px;
+	top:522.5px;
+	display: none;
+}
+#page5 .box01 .txt a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page5 .box01 .txt2 a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-weight: bold;	
+	color:white;
+}
+#page5 .box01.box03{
+	background-image: url(../images/activebg05.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;height: 100%;
+}
+@keyframes boxani{
+	form{left:0px;}
+	to{left: -20px;}
+}
+
+#page5 .link{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #000;
+	text-align: center;
+	font-weight: bold;	
+	color:#000;
+	position: absolute;
+	top: 690px;left:840px;
+
 }

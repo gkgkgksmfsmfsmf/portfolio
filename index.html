@@ -23,11 +23,25 @@
 
 				}
 			})
+
+			$(".txt").click(function(){
+				$(".box02").hide();
+				$(this).hide();
+				$(".box01").addClass("box03");
+				$(".txt2").css("display","block");
+			});
+			$(".txt2").click(function(){
+				$(".box01").removeClass("box03");
+				$(".box02").show();
+				$(this).hide();
+				$(".txt").show();
+
+			});
 		});
 	</script>
 </head>
 <body>
-	<nav id="navTop" class="clearfix">
+	<!-- <nav id="navTop" class="clearfix">
 		<ul id="topMenu" class="clearfix">
 			<li data-menuanchor="1st"><a href="#1st">menu01</a></li>
 			<li data-menuanchor="2st"><a href="#2st">menu02</a></li>
@@ -35,39 +49,85 @@
 			<li data-menuanchor="4st"><a href="#4st">menu04</a></li>
 			<li data-menuanchor="5st"><a href="#5st">menu05</a></li>
 		</ul>
-	</nav>
+	</nav> -->
 
 	<div id="fullpage">
-		<div class="section page" id="page1" data-anchor = "1st">
-			<div class="section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 bg-info">12</div>
-						<div class="col-md-6 bg-primary">13</div>
-					</div>
+		<div class="section page clearifx" id="page1" data-anchor = "1st">
+			<img src="images/page01.png" alt="" class="img">
+			<a href="http://hn9509.dothome.co.kr/wp/" class="link" target="_blank">사이트 바로가기</a>
+			<div class="box01">
+				<div class="box02"></div>
+				<div class="txt">
+					<a href="#">사이트 미리보기</a>
+				</div>
+				<div class="txt2">
+					<a href="#">나가기</a>
 				</div>
 			</div>
-			<div class="scroll">
+			<!-- <div class="scroll">
 				<a href="#2st"><img src="images/btn_scroll.png" alt=""></a>
-			</div>
+			</div> -->
 		</div>
 		<div class="section page" id="page2" data-anchor = "2st">
-			<div class="scroll">
-				<a href="#3st"><img src="images/btn_scroll.png" alt=""></a>
+			<img src="images/page02.png" alt="" class="img">
+			<a href="http://hn9509.dothome.co.kr/wp/" class="link">사이트 바로가기</a>
+			<div class="box01">
+				<div class="box02"></div>
+				<div class="txt">
+					<a href="#">사이트 미리보기</a>
+				</div>
+				<div class="txt2">
+					<a href="#">나가기</a>
+				</div>
 			</div>
+			<!-- <div class="scroll">
+				<a href="#3st"><img src="images/btn_scroll.png" alt=""></a>
+			</div> -->
 		</div>
 		<div class="section page" id="page3" data-anchor = "3st">
-			<div class="scroll">
-				<a href="#4st"><img src="images/btn_scroll.png" alt=""></a>
+			<img src="images/page03.png" alt="" class="img">
+			<a href="http://hn9509.dothome.co.kr/wp/" class="link">사이트 바로가기</a>
+			<div class="box01">
+				<div class="box02"></div>
+				<div class="txt">
+					<a href="#">사이트 미리보기</a>
+				</div>
+				<div class="txt2">
+					<a href="#">나가기</a>
+				</div>
 			</div>
+			<!-- <div class="scroll">
+				<a href="#4st"><img src="images/btn_scroll.png" alt=""></a>
+			</div> -->
 		</div>
 		<div class="section page" id="page4" data-anchor = "4st">
-			<div class="scroll">
-				<a href="#5st"><img src="images/btn_scroll.png" alt=""></a>
+			<img src="images/page04.png" alt="" class="img">
+			<a href="http://hn9509.dothome.co.kr/wp/" class="link">사이트 바로가기</a>
+			<div class="box01">
+				<div class="box02"></div>
+				<div class="txt">
+					<a href="#">사이트 미리보기</a>
+				</div>
+				<div class="txt2">
+					<a href="#">나가기</a>
+				</div>
 			</div>
+			<!-- <div class="scroll">
+				<a href="#5st"><img src="images/btn_scroll.png" alt=""></a>
+			</div> -->
 		</div>
 		<div class="section page" id="page5" data-anchor = "5st">
-			
+			<img src="images/page05.png" alt="" class="img">
+			<a href="http://hn9509.dothome.co.kr/wp/" class="link">사이트 바로가기</a>
+			<div class="box01">
+				<div class="box02"></div>
+				<div class="txt">
+					<a href="#">사이트 미리보기</a>
+				</div>
+				<div class="txt2">
+					<a href="#">나가기</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
